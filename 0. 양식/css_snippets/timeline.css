@@ -1,0 +1,34 @@
+.timeline-entry {
+  position: relative;
+  margin-left: 30px;
+  padding-left: 20px;
+  border-left: 2px solid var(--color-accent);
+  margin-bottom: 0em;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -53px; /* 선 중앙 맞춤 */
+  top: 0.6em;  /* 항목 상단에 맞게 조정 */
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-title {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.timeline-summary {
+  color: var(--text-muted);
+}
+
+
+.timeline-entry ul, .timeline-entry li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
